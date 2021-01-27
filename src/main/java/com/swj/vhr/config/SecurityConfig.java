@@ -37,6 +37,10 @@ import java.io.PrintWriter;
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
+
+    /**
+     * 测试
+     */
     @Autowired
     private HrService hrService;
 
